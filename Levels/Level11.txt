@@ -1,0 +1,23 @@
+======Dimensions======
+5 5
+======Plate======
+Case ( START , 0 , 1 , SOUTH )
+Case ( END , 3 , 4 )
+Case ( PATH , 1 , 1 -> 4 , 1 )
+Case ( PATH , 2 , 0 -> 4 , 0 )
+Case ( PATH , 2 , 2 -> 4 , 2 )
+Case ( PATH , 3 , 3 )
+Case ( BLOCKED , 0 , 0 -> 1 , 0 )
+Case ( BLOCKED , 0 , 2 -> 1 , 2 )
+Case ( BLOCKED , 0 , 3 -> 2 , 3 )
+Case ( BLOCKED , 0 , 4 -> 2 , 4 )
+Case ( BLOCKED , 4 , 3 -> 4 , 4 )
+END
+======Inventory======
+SLIDE 1
+SPIN 2
+END
+======LevelSolution======
+Tile ( SPIN , 2 , 1 )
+Tile ( SPIN , 3 , 0 )
+Tile ( SLIDE , 2 , 0 , SOUTH )

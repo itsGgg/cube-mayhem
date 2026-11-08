@@ -1,0 +1,28 @@
+======Dimensions======
+4 5
+======Plate======
+Case ( START , 2 , 0 , EAST )
+Case ( END , 3 , 4 )
+Case ( BLOCKED , 3 , 0 -> 3 , 3 )
+Case ( RESTRICT , 0 , 0 )
+Case ( RESTRICT , 0 , 2 )
+Case ( RESTRICT , 0 , 4 )
+Case ( RESTRICT , 1 , 1 )
+Case ( RESTRICT , 1 , 3 )
+Case ( RESTRICT , 2 , 2 )
+Case ( RESTRICT , 2 , 4 )
+Case ( PATH , 0 , 1 )
+Case ( PATH , 0 , 3 )
+Case ( PATH , 1 , 0 )
+Case ( PATH , 1 , 2 )
+Case ( PATH , 1 , 4 )
+Case ( PATH , 2 , 1 )
+Case ( PATH , 2 , 3 )
+END
+======Inventory======
+ARROW 1
+SLIDE 3
+END
+======LevelSolution======
+Tile ( ARROW , 1 , 4 , SOUTH )
+Tile ( SLIDE , 2 , 1 , NORTH )

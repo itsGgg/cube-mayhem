@@ -1,0 +1,16 @@
+======Dimensions======
+7 3
+======Plate======
+Case ( START , 4 , 1 , SOUTH )
+Case ( END , 2 , 1 )
+Case ( PATH , 0 , 0 -> 6 , 0 )
+Case ( PATH , 0 , 2 -> 6 , 2 )
+Case ( PATH , 0 , 1 -> 1 , 1 )
+Case ( PATH , 5 , 1 -> 6 , 1 )
+Case ( PATH , 3 , 1 )
+END
+======Inventory======
+TELEPORTATION 2
+END
+======LevelSolution======
+Tile ( TELEPORTATION , 5 , 1 , TELEPORTATION , 1 , 1 )

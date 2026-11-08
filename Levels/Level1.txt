@@ -1,0 +1,26 @@
+======Dimensions======
+7 7
+======Plate======
+Case ( START , 0 , 0 , EAST )
+Case ( END , 3 , 3 )
+Case ( BLOCKED , 1 , 0 -> 1 , 5 )
+Case ( BLOCKED , 2 , 0 -> 2 , 5 )
+Case ( BLOCKED , 3 , 4 )
+Case ( BLOCKED , 3 , 5 )
+Case ( BLOCKED , 4 , 1 -> 4 , 5 )
+Case ( BLOCKED , 5 , 1 -> 5 , 5 )
+Case ( PATH , 0 , 1 -> 0 , 5 )
+Case ( PATH , 0 , 6 -> 6 , 6 )
+Case ( PATH , 6 , 5 -> 6 , 0 )
+Case ( PATH , 5 , 0 -> 3 , 0 )
+Case ( PATH , 3 , 1 )
+Case ( PATH , 3 , 2 )
+END
+======Inventory======
+ARROW 4
+END
+======LevelSolution======
+Tile ( ARROW , 0 , 6 , SOUTH )
+Tile ( ARROW , 6 , 6 , WEST )
+Tile ( ARROW , 6 , 0 , NORTH )
+Tile ( ARROW , 3 , 0 , EAST )

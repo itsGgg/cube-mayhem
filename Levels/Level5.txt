@@ -1,0 +1,21 @@
+======Dimensions======
+5 5
+======Plate======
+Case ( START , 0 , 0 , SOUTH )
+Case ( END , 0 , 2 )
+Case ( PATH , 1 , 0 -> 4 , 0 )
+Case ( PATH , 4 , 1 -> 4 , 4 )
+Case ( PATH , 3 , 4 -> 0 , 4 )
+Case ( PATH , 0 , 3 )
+Case ( BLOCKED , 0 , 1 )
+Case ( BLOCKED , 1 , 1 -> 1 , 3 )
+Case ( BLOCKED , 2 , 1 -> 2 , 3 )
+Case ( BLOCKED , 3 , 1 -> 3 , 3 )
+END
+======Inventory======
+ARROW 1
+TELEPORTATION 2
+END
+======LevelSolution======
+Tile ( TELEPORTATION , 4 , 0 , TELEPORTATION , 0 , 4 )
+Tile ( ARROW , 4 , 4 , WEST )

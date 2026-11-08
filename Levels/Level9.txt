@@ -1,0 +1,39 @@
+======Dimensions======
+5 10
+======Plate======
+Case ( START , 1 , 1 , EAST )
+Case ( END , 1 , 9 )
+Case ( PATH , 0 , 0 -> 0 , 3 )
+Case ( RESTRICT , 0 , 4 )
+Case ( RESTRICT , 0 , 5 )
+Case ( BLOCKED , 0 , 6 -> 0 , 9 )
+Case ( PATH , 1 , 0 )
+Case ( PATH , 1 , 2 -> 1 , 4 )
+Case ( RESTRICT , 1 , 5 )
+Case ( TRANSPARENT , 1 , 6 )
+Case ( TRANSPARENT , 1 , 7 )
+Case ( TRANSPARENT , 1 , 8 )
+Case ( PATH , 2 , 0 -> 2 , 3 )
+Case ( RESTRICT , 2 , 4 )
+Case ( RESTRICT , 2 , 5 )
+Case ( BLOCKED , 2 , 6 -> 2 , 9 )
+Case ( BLOCKED , 3 , 0 -> 3 , 4 )
+Case ( SWITCH_OFF , 3 , 5 )
+Case ( BLOCKED , 3 , 6 -> 3 , 9 )
+Case ( BLOCKED , 4 , 0 -> 4 , 4 )
+Case ( PATH , 4 , 5 )
+Case ( BLOCKED , 4 , 6 -> 4 , 9 )
+END
+======Inventory======
+ARROW 2
+TELEPORTATION 2
+SLIDE 4
+END
+======LevelSolution======
+Tile ( ARROW , 0 , 3 , SOUTH )
+Tile ( TELEPORTATION , 1 , 0 , TELEPORTATION , 4 , 5 )
+Tile ( SLIDE , 1 , 3 , EAST )
+Tile ( SLIDE , 1 , 4 , EAST )
+Tile ( ARROW , 2 , 0 , EAST )
+Tile ( SLIDE , 2 , 3 , NORTH )
+Tile ( TELEPORTATION , 4 , 5 , TELEPORTATION , 1 , 0 )
